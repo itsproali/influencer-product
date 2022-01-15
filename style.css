@@ -79,31 +79,10 @@ img {
     background-color: var(--pink);
     padding: 8px 20px;
     border-radius: 20px;
-    position: relative;
-    z-index: 1;
 }
 .top-text .btn:hover {
-    background-color: transparent;
+    background-color: #d3084b;
     transition: .4s;
-}
-.top-text .btn::after {
-    content: "";
-    background-color: #c50343;
-    border-radius: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s;
-    z-index: -1;
-} 
-.top-text .btn:hover::after {
-    width: 100%;
-    opacity: 1;
-    visibility: visible;
 }
 .top-text .btn a {
     font-size: 17px;
@@ -120,7 +99,6 @@ img {
 }
 .top-image img:hover {
     transform: scale(1.15);
-    /* transition: transform .5s; */
 }
 /* ------------------------
         Product Section  
@@ -198,6 +176,9 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.subscribe-image img {
+    max-width: 100%;
 }
 .subscribe-text {
     margin-left: 80px;
