@@ -260,7 +260,7 @@ img {
     .subscribe-text {
         margin: 0 2%;
     }
-    .footer {
+    footer {
         width: 100%;
     }
 }
@@ -290,16 +290,13 @@ img {
     .subscribe-text {
         margin: 25px 15%;
     }
-    .footer {
+    footer {
         width: 100%;
     }
 }
 
 /* Mobile */
 @media only screen and (max-width:600px) {
-    .container {
-        width: 95%;
-    }
     .navbar {
         margin: 20px 0;
     }
@@ -310,7 +307,6 @@ img {
     }
     .top-text {
         order: 1;
-        text-align: center;
     }
     .top-image img {
         width: 90%;
@@ -324,7 +320,7 @@ img {
     .subscribe-text {
         margin: 0 5%;
     }
-    .footer {
+    footer {
         width: 100%;
     }
 }
